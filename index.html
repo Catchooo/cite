@@ -6,12 +6,20 @@
 </head>
 <body>
   <header>
-    <img src="your_image.jpg" alt="Image">
-    <h1>simpapusiki.off</h1>
-  </header>
+    </header>
   <nav>
-    <a href="photos.html">Photos</a>
-    <a href="info.html">Info</a>
+    <a href="#" data-page="photos">Photos</a>
+    <a href="#" data-page="info">Info</a>
   </nav>
+  <section id="content">
+    <div class="page" data-page="photos">
+      <input type="file" id="file-input">
+      <img id="preview-img">
+    </div>
+    <div class="page" data-page="info">
+      <p>...</p>
+    </div>
+  </section>
+  <script src="script.js"></script>
 </body>
 </html>
