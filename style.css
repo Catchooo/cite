@@ -1,0 +1,11 @@
+/* Тут визначаються стилі для всіх елементів сторінки */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  /* ... інші стилі */
